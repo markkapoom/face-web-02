@@ -69,9 +69,7 @@ def display_image(filename):
 
     return redirect(url_for('static', filename='output/' + filename), code=301)
 
-app.listen(process.env.PORT or 3000, function(
-console.log("Express server listening on port %d in %s mode",
-                                                            this.address().port, app.settings.env)))
+
 if __name__ == "__main__":
     app.run()
 #git remote add origin https://github.com/markkapoom/web_face.git venv
