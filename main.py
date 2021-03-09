@@ -67,3 +67,4 @@ def display_image(filename):
 
 if __name__ == "__main__":
     app.run()
+#git remote add origin https://github.com/markkapoom/web_face.git venv
